@@ -29,6 +29,13 @@ dotnet run -p src/SharpProxyCore.csproj
 dotnet run -p src/SharpProxyCore.csproj --internal=8887 --external=5001
 ```
 
+Proxy output:
+
+```
+Started:
+http://192.168.43.46:5000 => http://127.0.0.1:8887
+```
+
 3. Create request from any client
 
 ```csharp
