@@ -8,7 +8,7 @@ Simply enter the local port number of your development server and map it with an
 
 Based on [SharpProxy](https://github.com/jocull/SharpProxy).
 
-## Use
+## Usage
 
 ```sh
 dotnet run -p src/SharpProxyCore.csproj
@@ -16,8 +16,8 @@ dotnet run -p src/SharpProxyCore.csproj
 
 ### Options
 
-- `i=|internal` - Set internal port [Default 5000]
-- `e=|external` - Set external port [Default 8888]
+- `i=|internal` - Set internal port [default: 5000]
+- `e=|external` - Set external port [default: 8888]
 
 ### Example
 
